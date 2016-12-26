@@ -39,7 +39,7 @@ public class Crawler {
         pagesVisited.add(currentUrl);
 
         try {
-          crawlerLeg.displayJSON(url);
+          crawlerLeg.displayJSON(currentUrl);
         } catch (JSONException e) {
           e.printStackTrace();
         }
